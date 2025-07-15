@@ -1,3 +1,4 @@
+** .env is included because it doesn't include sensitive information **
 # Postgres Concepts with Node.js
 
 This project demonstrates core PostgreSQL concepts using Node.js, including basic queries, connection pooling, filtering, sorting, relationships, joins, and aggregation. It uses the pg library for PostgreSQL integration and organizes code by concept for easy learning and experimentation.
