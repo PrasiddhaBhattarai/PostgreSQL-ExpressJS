@@ -19,15 +19,20 @@ This project demonstrates core PostgreSQL concepts using Node.js, including basi
 
 ```
 .
-├── 01_basic_queries.js         # CRUD operations on users
-├── 02_pool_connect.js          # Manual connection handling & transactions
-├── 03_filtering_sorting.js     # Filtering, sorting, and pagination
-├── 04_relationships.js         # Post-user relationships
-├── 05_joins.js                 # Fetching users with their posts
-├── 06_aggregation.js           # Aggregated user-post data
-├── db.js                       # Database connection pool setup
-├── main.js                     # Entry point to run test queries
-└── .env                        # Environment variables (PostgreSQL connection string)
+├── .env                        # Environment variables (PostgreSQL connection string)
+├── .gitignore                  # Ignored files and folders
+├── package.json                # Project metadata and dependencies
+├── src/
+│   ├── main.js                 # Entry point to run test queries
+│   ├── config/
+│   │   └── db.js               # Database connection pool setup
+│   └── concepts/
+│       ├── 01_basic_queries.js         # CRUD operations on users
+│       ├── 02_pool_connect.js          # Manual connection handling & transactions
+│       ├── 03_filtering_sorting.js     # Filtering, sorting, and pagination
+│       ├── 04_relationships.js         # Post-user relationships
+│       ├── 05_joins.js                 # Fetching users with their posts
+│       └── 06_aggregation.js           # Aggregated user-post data
 ```
 
 ---
